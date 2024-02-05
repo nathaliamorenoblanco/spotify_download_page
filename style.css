@@ -1,0 +1,211 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;1000&family=Poppins:wght@400;700&display=swap');
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header > nav > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header ul li {
+    margin: 10px;
+    color: black;
+    justify-content: center;
+}
+
+.header img {
+    width: 160px;
+    height: 55px;
+    margin: 5px;
+}
+
+.fondo {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.fondo img {
+    width: 1252px;
+    height: auto;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+.contenedor h2{
+    font-size: 28px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 45px;
+    margin-bottom: 55px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.apple{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.apple img{
+    width: 250px;
+    height: auto;
+}
+
+.apple h3{
+    font-size: 22px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+}
+
+.apple p{
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 14px;
+}
+
+.google{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.google img{
+    width: 270px;
+    height: auto;
+}
+
+.google h3{
+    font-size: 22px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+}
+
+.google p{
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 14px;
+}
+
+.microsoft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.microsoft img{
+    width: 240px;
+    height: auto;
+}
+
+.microsoft h3{
+    font-size: 22px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+}
+
+.microsoft p{
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 14px;
+}
+
+.green {
+    height: 470px;
+    background-color: #1ab16a;
+    position: relative;
+    text-align: left;
+}
+
+.whitelogo img{
+    width: 90px;
+    height: auto;
+    position: absolute;
+    top: 42%;
+    left: 45%;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: white;
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.texto h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.texto p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.texto ul{
+    padding-left: 0px;
+    list-style: none;
+}
+
+.devices img{
+    width: 515px;
+    height: auto;
+    position: absolute;
+    top: 23%;
+    left: 57%;
+    margin-left: 10px;
+}
